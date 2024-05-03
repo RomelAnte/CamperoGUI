@@ -1,0 +1,33 @@
+.logo-campero{
+    height: 50px;
+}
+.aling-right{
+    display: flex;
+    justify-content: right;
+}
+#search{
+    border: none;
+}
+#search:focus{
+    outline: none;
+}
+nav{
+    display: flex;
+    background-color: #EC8B24;
+}
+a{
+    font-weight: bold;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.navbar{
+    margin-left: 50px;
+    height: 50px;
+}
+.navbar__{
+    
+    padding: 0 20px;
+}
+.navbar:hover{
+    background-color: #EC8B24;
+}
