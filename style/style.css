@@ -1,3 +1,6 @@
+header{
+    padding-top: 10px;
+}
 .logo-campero{
     height: 50px;
 }
@@ -5,8 +8,21 @@
     display: flex;
     justify-content: right;
 }
+.header{
+    padding: 7px;
+    margin: 0 10px;
+}
+.search{
+    padding: 0 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 0 50px;
+}
 #search{
+    width: 95%;
     border: none;
+    font-size: 18px;
+    padding: 4px 0;
 }
 #search:focus{
     outline: none;
@@ -22,12 +38,29 @@ a{
 }
 .navbar{
     margin-left: 50px;
-    height: 50px;
+    padding: 0 !important;
 }
-.navbar__{
-    
-    padding: 0 20px;
+.navbar__{    
+    padding: 14px 20px;
+    height: 100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
-.navbar:hover{
-    background-color: #EC8B24;
+.navbar__:hover{
+    background-color: #000;
+}
+.button-background{
+    background-color: #fff;
+    color: #000;
+}
+.menu{
+    margin: 50px 20px;
+}
+.menu__ img{
+    width: 100%;
+}
+.controls{
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
 }
