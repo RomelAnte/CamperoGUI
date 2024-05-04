@@ -1,6 +1,10 @@
 header{
     padding-top: 10px;
 }
+header iframe{
+    width: 100%;
+    height: 116px;
+} 
 .logo-campero{
     height: 50px;
 }
@@ -27,6 +31,9 @@ header{
 #search:focus{
     outline: none;
 }
+.cart{
+    margin-left: 20px;
+}
 nav{
     display: flex;
     background-color: #EC8B24;
@@ -47,7 +54,7 @@ a{
     border-right: 1px solid #fff;
 }
 .navbar__:hover{
-    background-color: #000;
+    background-color: #8F5416;
 }
 .button-background{
     background-color: #fff;
@@ -63,4 +70,57 @@ a{
     background-color: #fff;
     border-radius: 50%;
     padding: 10px;
+}
+.slider{
+    display: flex;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+.slider:before{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    content: "";
+    width: 23.95%;
+    height: 110px;
+}
+.slider:after{
+    position: absolute;
+    right: 0;
+    content: "";
+    width: 23.95%;
+    height: 110px;
+}
+.slider .slide-track{
+    display: flex;
+    animation: scroll 35s linear infinite;
+    -webkit-animation: scroll 35s linear infinite;
+    width: calc(240px*10);
+}
+.slider .slide{
+    border: 1px solid #000;
+}
+.slider .slide img{
+    background-color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: #ccc;
+    width: 250px;
+}
+footer iframe{
+    width: 100%;
+    height: 300px;
+}
+/*@keyframes scroll{
+    0%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100%{
+        -webkit-transform: translateX(calc(-240px*5));
+        transform: translateX(calc(-240px*5));
+    }
 }
