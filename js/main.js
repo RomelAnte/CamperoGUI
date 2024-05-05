@@ -1,8 +1,19 @@
-var carousel = document.getElementById('carousel1');
-var index = 0;
+var carouselWidth = $(".carousel-inner1")[0].scrollWidth;
+var cardWidth = $(".carousel-item1").width();
 
-function rotateCarousel(direction) {
-    index = (index + direction) % carousel.children.length;
-    if (index < 0) index += carousel.children.length;
-    carousel.style.transform = 'translateX(' + (-index * 200) + 'px)';
-}
+var scrollPosition = 0;
+
+$(".carousel-control-next").on("click",function(){
+    if(scrollPosition < (carouselWidth - (cardWidth * 4))){
+        console.log("next");
+        scrollPosition = scrollPosition + cardWidth;
+        $(".carousel-inner1").animate({scrollLeft: scrollPosition},600);
+    }
+});
+$(".carousel-control-prev").on("click",function(){
+    if(scrollPosition > 0){
+        console.log("prev");
+        scrollPosition = scrollPosition - cardWidth;
+        $(".carousel-inner1").animate({scrollLeft: scrollPosition},600);
+    }
+});
