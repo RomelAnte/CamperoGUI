@@ -1,0 +1,37 @@
+.align-items-center {
+    align-items: center !important;
+    display: grid !important;
+}
+.align-items-center__{
+    margin: auto;
+}
+.align-items-center__img{
+    margin: auto;
+    width: 219px;
+}
+.shopping-cart-empty-image {
+    width: 219px;
+    height: 243px;
+    margin-top: 103px;
+    margin-bottom: 66px;
+}
+.returnMenu{
+    display: inline;
+    color: #000 !important;
+    margin: 60px auto 90px auto;
+    font-size: 1.375rem;
+    width: 547px;
+    background-color: #EC8B24;
+    height: 75px;
+    width: 500px;
+    border: none;
+    font-weight: bold;
+}
+.spree-icon {
+    justify-content: center;
+    text-align: center !important;
+}
+.card-inf{
+    text-align: center;
+    font-size: 20px;
+}
