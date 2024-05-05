@@ -1,0 +1,56 @@
+.content{
+    width: 100%;
+    height: 400px;
+}    
+.form{
+    position: relative;
+    top: 30px;
+    width: 315px;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;    
+    
+    text-align: center !important;
+}
+.form span{
+    font-size: 13px;
+}
+.form span a{
+    color: #000 !important;
+    font-weight: normal;
+}
+.form span:hover{
+    text-decoration: underline;
+}
+.form h6{
+    text-align:left;
+}
+.form h6 img{
+    margin: 7px;
+    height: 10px;
+}
+form{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+form input{
+    border: none;
+    width: 90%;
+}
+form input:focus{
+    outline: none;
+}
+.btn-continuar{
+    width: 100%;
+    border: none;
+    background-color: #E37437;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+}
+.login-footer{
+    display: flex;
+    justify-content: center;
+}
