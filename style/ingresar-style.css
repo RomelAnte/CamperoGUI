@@ -54,3 +54,6 @@ form input:focus{
     display: flex;
     justify-content: center;
 }
+.content1{
+    margin-bottom: 50px;
+}
